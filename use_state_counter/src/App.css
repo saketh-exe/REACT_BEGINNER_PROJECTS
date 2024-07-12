@@ -1,0 +1,13 @@
+div{
+  width: 100%;
+  font-size: 40px;
+  text-align: center;
+}
+
+button{
+  width: 20%;
+  padding: 50px;
+  cursor: pointer;
+  margin-left: 10px;
+  font-size: 30px;
+}

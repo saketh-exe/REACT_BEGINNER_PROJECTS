@@ -1,0 +1,91 @@
+.Head{
+    font-family:'Courier New', Courier, monospace;
+    background-image: linear-gradient(90deg,#672280,#A626D3);
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: aliceblue;
+
+    img{
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+    }
+    h3{
+        font-size: 35px;
+        margin:  0px;
+    }
+    h5{
+        font-size: 30px;
+        margin: 0px;
+    }
+    div{
+        width: 30%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+}
+
+.inputs{
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    button{
+        width: 30%;
+        padding: 10px;
+        font-size: 30px;
+        border-radius: 10px;
+        border: 1px black solid;
+        width: 60%;
+        color: aliceblue;
+        background-image: linear-gradient(90deg,#672280,#A626D3);
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        align-items: center;
+        transition: all 300ms ease;
+        margin-bottom: 20px;
+
+        img{
+            width: 30px;
+        }
+        
+    }
+    button:hover{
+        color: rgb(0, 0, 0);
+        background-image: linear-gradient(90deg,#ffffff,#A626D3);
+    }
+    div{
+        width: 100%;
+        display: flex;
+        margin-bottom: 40px;    
+        justify-content: space-evenly;
+        align-items: center;
+
+        input{
+            width: 40%;
+            font-size: 20px;
+            border-radius: 10px;padding: 12px;
+            font-weight: 100;
+            font-family: monospace;
+            border: 1px solid rgb(185, 185, 185);
+        }
+    
+    }
+}
+
+.display{
+    width: 60%;
+    
+}
